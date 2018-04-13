@@ -52,7 +52,7 @@ public class BookController {
 		return "detail";
 	}
 
-	// ajax json
+	// ajax json123123
 	@RequestMapping(value = "/{bookId}/appoint", method = RequestMethod.POST, produces = {
 			"application/json; charset=utf-8" })
 	@ResponseBody
