@@ -53,6 +53,7 @@ public class BookController {
 	}
 
 	// ajax json
+	//curl -H "Accept: application/json; charset=utf-8" -d "studentId=1234567890" localhost:12345/book/1003/appoint
 	@RequestMapping(value = "/{bookId}/appoint", method = RequestMethod.POST, produces = {
 			"application/json; charset=utf-8" })
 	@ResponseBody
