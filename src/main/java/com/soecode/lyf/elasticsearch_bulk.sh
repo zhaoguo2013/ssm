@@ -1,4 +1,5 @@
 #!/bin/sh
+#es导入
 count=0
 rm target.json
 touch target.json
